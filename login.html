@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Login Form</title>
+ <script>
+  function LoginValidate(){
+   alert("Login Successfully")
+  }
+  </script>
+</head>
+<body style="text-align: center;">
+   <div class="main">
+  <h3>Enter Your Login credentials</h3>
+  <form action="welcome.html">
+
+  <label for="first">
+       Username:
+  </label>
+ <input type="text" name="first"
+      placeholder="Enter Your Username" required>
+      <br> <br>
+   <label for="password">
+          Password:
+   </label>
+   <input type="password"  name="password"
+      placeholder="Enter Your Password" required>
+      <br> <br>
+      <button type="submit" onclick="LoginValidate()">Submit</button>
+        <br>
+  </form>
+   </div>
+<p>Not registerd?
+ <a href="register.html"
+ style="text-decoration: none;">
+ Create an account
+</a>
+</p>
+
+</body>
+</html>
